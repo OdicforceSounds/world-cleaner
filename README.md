@@ -1,4 +1,5 @@
 # World-Cleaner
+
 ### World-cleaner is the name of Our World Wide Brands Competition [Challenge](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/Path/)! 
 
 ### What is the Value of Choice?
@@ -12,12 +13,12 @@
 #### As You may Wish to participate or not:
 - You are Included in [Our Eternal License](https://wiki.odicforcesounds.com/art/pages/License/index.html)
 
-#### Project Tree code usr/:
-- Folder components: control web interface components
-- Folder companies: control companies registration data
-- Folder system: system control
-- Folder users: control user data
-- Folder api: control firebase api calls
+#### Project Tree code src/:
+- Folder [components](./src/companies): control web interface components
+- Folder [companies](./src/companies): control companies registration data
+- Folder [system](./src/system): system control
+- Folder [users](./src/users): control user data
+- Folder [api](./src/api): control Firebase api calls
 
 #### Projects diagrams/:
 
@@ -31,5 +32,4 @@
 3. tsc -w src/ 
 - Participate: clone and make a pull request. 
 - We have a [Slack](odicforcesoundsgroup.slack.com) Chat
-
 
