@@ -27,5 +27,13 @@
     "firebase-tools": "^8.4.3",
     "firebaseui": "^4.5.1",
     "tsc": "^1.20150623.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odicforcesounds/World-Cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odicforcesounds/World-Cleaner/issues"
+  },
+  "homepage": "https://github.com/odicforcesounds/World-Cleaner#readme"
 }
