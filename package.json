@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "typeScript based application",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "tsc": "tsc",
     "tscw": "tsc -w",
