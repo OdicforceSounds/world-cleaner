@@ -5,8 +5,13 @@
 - [Numeric Expressions that Represent Value](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/OdicPoints/)! 
 
 #### Code Principles
+<<<<<<< HEAD
 1. npm serve
 2. tsc -w src/ 
+=======
+- Participate: here or there - Slack: odicforcesoundsgroup.slack.com
+
+>>>>>>> 0104ad6f6f4475ab12087d1349d7319229501e66
 #### Registered by Condition. Supported by:
 - Values can only  [increment](https://wiki.odicforcesounds.com/docs/plan/psudoCode.html). 
 - All negative expressions are part of a single fail. +0 ( ZERO ) 
