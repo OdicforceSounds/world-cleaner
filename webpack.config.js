@@ -19,11 +19,15 @@ module.exports = {
                         {test: /\.tsx?$/, loader: "ts-loader" },
                 ],
         },
-        plugins: {
+        plugins: [
                 new CopyWebpackPlugin([
-                        {
-                                from: '.html',
-                ]
-        ]),
+                {
+                   from: '.html',
+                }
+
+                ]),
+        ],
+};
+
 }}
 
