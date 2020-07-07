@@ -4,11 +4,6 @@
 ### What is the Value of Choice?
 - [Numeric Expressions that Represent Value](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/OdicPoints/)! 
 
-#### Code Principles
-1. npm serve
-2. tsc -w src/ 
-- Participate: close and make a pull request. Talk we us here at [Slack](odicforcesoundsgroup.slack.com)
-
 #### Registered by Condition. Supported by:
 - Values can only  [increment](https://wiki.odicforcesounds.com/docs/plan/psudoCode.html). 
 - All negative expressions are part of a single fail. +0 ( ZERO ) 
@@ -25,10 +20,16 @@
 - Folder api: control firebase api calls
 
 #### Projects diagrams/:
-- Application Coding Life Cycle
-![application](./diagrams/AppLifeCycle.jpg)
+
 - Application Features
+
 ![Civic Features](./diagrams/Points.jpg)
 
+#### Code Principles
+1. npm install 
+2. npm serve
+3. tsc -w src/ 
+- Participate: clone and make a pull request. 
+- We have a [Slack](odicforcesoundsgroup.slack.com) Chat
 
 
