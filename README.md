@@ -28,7 +28,7 @@
 
 #### Code Principles
 1. npm install 
-2. tsc -w src/ 
+2. npm run serve
 - Participate: clone and make a pull request. 
 - We have a [Slack](odicforcesoundsgroup.slack.com) Chat
 
