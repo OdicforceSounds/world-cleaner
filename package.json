@@ -1,0 +1,27 @@
+{
+  "name": "world-cleaner",
+  "version": "0.0.1",
+  "description": "typeScript based application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typeScript",
+    "JavaScript",
+    "Firebase",
+    "Challenge",
+    "Competition",
+    "World",
+    "Wide"
+  ],
+  "author": "OscarFM",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "firebase-tools": "^8.4.3",
+    "tsc": "^1.20150623.0"
+  }
+}
