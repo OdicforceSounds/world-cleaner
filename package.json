@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "eslint": "^7.4.0",
+    "firebase-admin": "^8.13.0",
     "firebase-tools": "^8.4.3",
+    "firebaseui": "^4.5.1",
     "tsc": "^1.20150623.0"
   }
 }
