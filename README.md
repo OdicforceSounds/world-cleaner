@@ -1,5 +1,5 @@
 # World-Cleaner
-## World-cleaner is the name of Our World Wide Brands Competition [Challenge](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/Path/)! 
+### World-cleaner is the name of Our World Wide Brands Competition [Challenge](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/Path/)! 
 
 ### What is the Value of Choice?
 - [Numeric Expressions that Represent Value](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/OdicPoints/)! 
