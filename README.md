@@ -5,6 +5,7 @@
 - [Numeric Expressions that Represent Value](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/OdicPoints/)! 
 
 #### Code Principles
+- Participate: here or there - Slack: odicforcesoundsgroup.slack.com
 
 #### Registered by Condition. Supported by:
 - Values can only  [increment](https://wiki.odicforcesounds.com/docs/plan/psudoCode.html). 
