@@ -7,7 +7,7 @@
 #### Code Principles
 1. npm serve
 2. tsc -w src/ 
-- Participate: here or there - Slack: odicforcesoundsgroup.slack.com
+- Participate: close and make a pull request. Talk we us here at [Slack](odicforcesoundsgroup.slack.com)
 
 #### Registered by Condition. Supported by:
 - Values can only  [increment](https://wiki.odicforcesounds.com/docs/plan/psudoCode.html). 
@@ -16,3 +16,19 @@
 
 #### As You may Wish to participate or not:
 - You are Included in [Our Eternal License](https://wiki.odicforcesounds.com/art/pages/License/index.html)
+
+#### Project Tree code usr/:
+- Folder components: control web interface components
+- Folder companies: control companies registration data
+- Folder system: system control
+- Folder users: control user data
+- Folder api: control firebase api calls
+
+#### Projects diagrams/:
+- Application Coding Life Cycle
+![application](./diagrams/AppLifeCycle.jpg)
+- Application Features
+![Civic Features](./diagrams/Points.jpg)
+
+
+
