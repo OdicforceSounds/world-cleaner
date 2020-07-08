@@ -1,0 +1,20 @@
+{
+  "company": {
+    "location": "Portugal",
+    "users": {
+      "user0001": [
+        "id": "",
+        "email": "",
+        "path_A": [
+          "ActionGeolocation": "",
+          "points": ""
+        ],
+        "path_B": [
+          "ActionGeolocation": "",
+          "points": ""
+      ]
+    }
+  }
+}
+
+
