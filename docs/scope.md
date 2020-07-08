@@ -16,6 +16,7 @@
 	- First we want to test, Then ( all in one ) 
 	- Production version: 
 	1. One Database for Companies
+	- Companies are registered by Location (locale)
 	2. Each Company can store NumberOfEmployees (users)
 	3. Each user give only Email (as personal information)
 
