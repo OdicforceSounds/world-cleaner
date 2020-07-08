@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 2,
-  "agentName": "ThinkDao",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/serviceHosts/7727b67a-a97e-450e-95dc-053b13331961/",
-  "gitHubUrl": "https://github.com/odicforcesounds/World-Cleaner",
-  "workFolder": "_work"
-}
