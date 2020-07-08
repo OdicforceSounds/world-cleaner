@@ -10,6 +10,7 @@
     "wp": "webpack",
     "wpw": "webpack --watch",
     "serve": "live-server",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,8 +25,11 @@
   "author": "OscarFM",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "live-server": "^1.2.1",
-    "ts-loader": "^7.0.5"
+    "nodemon": "^2.0.4",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "@types/lodash": "^4.14.157",
