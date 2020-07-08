@@ -2,4 +2,6 @@ node_modules/
 ./package-lock.json
 ./src/app.js
 dist/
+public/
+.firebase/
 
