@@ -1,0 +1,6 @@
+let input = document.querySelector('input');
+let log = document.getElementById('log');
+
+input.onchange = handleChange;
+
+:
