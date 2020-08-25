@@ -1,4 +1,4 @@
-const coins = require("../system/coins");
+const shareCoin = require("../system/coins");
 const users = require("../users/userProfile");
 /*
  * How much concept proofs user did approve
