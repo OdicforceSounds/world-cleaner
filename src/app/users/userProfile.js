@@ -1,3 +1,7 @@
+const points = require("../system/points");
+const coins = require("../system/coins");
+// const concepts = require("../concepts");
+
 const personalCharacteristics = {
   integrity: 0,
   honesty: 0,
@@ -21,4 +25,4 @@ const personalCharacteristics = {
   encouraging: 0,
   forgiving: 0,
   ambition: 0,
-};
+}; // Add more proprieties if ( positive )
