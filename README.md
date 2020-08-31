@@ -75,8 +75,6 @@ We Will Try to keep things as [Simple](https://soundcloud.com/odicforcesounds_si
 
 11. For Schools: For All Students
 	- For Each correct answer, student gain 1 point. (points are coins for students)
-12. 
-
 
 ## Player Menus
 1. <button>Do Action</button> 
