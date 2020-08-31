@@ -1,15 +1,16 @@
 /*
  * Coins: First Aproach: "Pure Numeric Expressions that represent Value"
  */
+// ERROR: import {points} from './points.js'; 
 
-function* coin() {
-  let coinValue = 0;
+function* genCoin() {
+  let coinValue = 1;
   while (true) {
-    yield coinValue++;
-    console.log("World Cleaner Coin Number: ", coinValue);
+    console.log("Generating a new Numeric Expression that Represent Value");
+    return 1;
   }
 }
 
-const createCoin = coin();
-const shareCoin = console.log(createCoin.next().value);
-shareCoin;
+const createCoin = genCoin();
+const generateCoin = createCoin.next().value;
+console.log(generateCoin);
