@@ -1,3 +1,5 @@
+// ERROR: import countPoint from './points.js';
+
 const allPaths = {
   // Nature Care Path
   ncp: "Nature Care Path",
@@ -12,4 +14,5 @@ const allPaths = {
 
 for (const [key, value] of Object.entries(allPaths)) {
   console.log(`${key}: ${value}`);
+  // ERROR: console.log(countPoint)
 }
