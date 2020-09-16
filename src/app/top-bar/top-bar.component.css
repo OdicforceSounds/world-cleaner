@@ -1,0 +1,9 @@
+.navtop {
+  display: flex;
+  justify-content: center;
+  flex-shrink: inherit;
+}
+
+a {
+  margin:2%;
+}
