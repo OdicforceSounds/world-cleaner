@@ -1,14 +1,17 @@
 .navtop {
   display: flex;
   justify-content: center;
-  flex-shrink: inherit;
+  background-color:gray;
+  position: sticky;
 }
 
 a {
   margin:2%;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   background-color: blueviolet;
   color: white;
-  padding:1%;
+  padding:1.3%;
+  border-radius: 10%;
+  justify-content: stretch;
 }
