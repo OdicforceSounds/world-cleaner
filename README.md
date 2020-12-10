@@ -2,6 +2,8 @@
 
 ### World-cleaner is the name of Our World Wide Brands Competition [Challenge](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/Path/)! 
 
+__Abstration__: " Any contribution made by anyone else, to improve something else of somebody else, have value! More than simply pointing to any kind of errors without saying how to fix them. Even worst, to describe the author as a bad person based on any reasons to make them feel like a [MONSTER](https://github.com/odicforcesounds/The-Condition-of-illusion). Therefor all Schools and Companies of any kind, of this world, Shall add this mechanism of Points that are Coins, because they have **VALUE** to those who make them necessary. Students for Schools - Employees for Companies  "
+
 ### What is the Value of Choice?
 - [Numeric Expressions that Represent Value](https://wiki.odicforcesounds.com/docs/en/Tao/Fragments/OdicPoints/)! 
 
@@ -9,7 +11,6 @@
 - Values can only  [increment](https://wiki.odicforcesounds.com/docs/plan/psudoCode.html). 
 - All negative expressions are part of a single fail. +0 ( ZERO ) 
 - Therefor [we create solutions](https://wiki.odicforcesounds.com/docs/plan/Questions.html) to Question the Limits of a transparent [Good Business](https://pt.linkedin.com/in/rakzhodekams).
-
 
 ## Principles of this Application
 
@@ -26,7 +27,7 @@ We Will Try to keep things as [Simple](https://soundcloud.com/odicforcesounds_si
 	- There is not Chats
 	- There is no public User-Search
 	- There is no friend-invitation
-
+	
 1. Application target to all mobil devices and all social-media networks if: 
 	- Social-network can produce and store REALTIME video-streams and make it public.
 	- Then we can record video-stream link (only) Not the video it self. (to save bandwind)
@@ -40,7 +41,7 @@ We Will Try to keep things as [Simple](https://soundcloud.com/odicforcesounds_si
 	- First we want to test, Then ( all in one ) 
 	- Production version: 
 	- Companies are registered by Location (locale)
-	1. Each Company pay 5€ fee for each employee per year
+	1. Each Company pay 1€ fee for each employee per year
 	2. Each Company can store NumberOfEmployees (users)
 	3. Each user give only Email (as personal information)
 
