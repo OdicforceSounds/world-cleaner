@@ -35,10 +35,8 @@ I really prefer this rate system applied in any level of society as a way to mot
 2. Videos Stream can only be used by Citizen who aims to report a moment, where someone needs help. 
 
 - Videos are reported directly to Government public services, with Citizen GPS + Video Visualization. 
-
-> If government Public Services approve that report, Citizen gains one Point to HCP. 
-
-> If government Public Service solve the problem reported, employees which work on it, gain one Point.   
+- If government Public Services approve that report, Citizen gains one Point to HCP. 
+- If government Public Service solve the problem reported, employees which work on it, gain one Point.   
 
 >> At Schools
 
@@ -47,7 +45,7 @@ I really prefer this rate system applied in any level of society as a way to mot
 - Control him/her Self. Martials arts are Awesome. You may be the best one to show those moves. 
 - You have the Right to Hit anyone without Touching anyone. (Included in Our Eternal License) 
 
-> In the Process, they can learn how to read and how to write by Singing or Paintings.
+In the Process, they can learn how to read and how to write by Singing or Paintings.
 
-> Math? Is useful, but with Music, we can Dance and learn useful math, with simple problems, while we dance!
+Math? Is useful, but with Music, we can Dance and learn useful math, with simple problems, while we Dance and play music!
 
