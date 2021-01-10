@@ -40,8 +40,9 @@ I really prefer this rate system applied in any level of society as a way to mot
 
 > If government Public Service solve the problem reported, employees which work on it, gain one Point.   
 
-> At classroom students gain one Point each Time shows Improvements and knowledge, logic, creativity, etc... Everything that have value.
+>> At Schools
 
+- At classroom students gain one Point each Time shows Improvements and knowledge, logic, creativity, etc... Everything that have value.
 - Students should know how to cultivate Plants, Care Animals, and Deal with Persons, to Cook, Clean, Fix...
 - Control him/her Self. Martials arts are Awesome. You may be the best one to show those moves. 
 - You have the Right to Hit anyone without Touching anyone. (Included in Our Eternal License) 
