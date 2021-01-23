@@ -19,8 +19,8 @@ import { PathsComponent } from './paths/paths.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: PathsComponent },
-    ])
+    { path: '', component: PathsComponent },
+], { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]
