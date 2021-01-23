@@ -1,6 +1,6 @@
 // World Wide Brands Competition for Image propose Only
 // by Odicforcesounds aka OscarFM and Daoteams
-
+"use strict"
 // NodeJS Core Modules
 // using express, don't need to call http module
 const http = require("http");
@@ -31,3 +31,4 @@ app.use("/", (req, res, next) => {
 });
 
 app.listen(3000);
+
