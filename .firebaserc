@@ -1,5 +1,11 @@
 {
   "projects": {
     "default": "white-cat"
+  },
+  {
+    "hosting": {
+      "site": "whitecat-3f4e4",
+      "public": "public"
+    }
   }
 }
