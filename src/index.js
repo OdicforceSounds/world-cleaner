@@ -1,5 +1,15 @@
-var firebase = require('firebase');
-var auth = require('firebase/auti');
+const http = require('http');
+
+const requestListener = function (req, res) {
+  res.writeHead(200);
+  res.end('yellow');
+}
+
+const server = http.createServer(requestListener);
+server.listen(4200); 
+
+const firebase = require('firebase');
+var auth = require('firebase/auth');
 var firestore = require('firebase/firestore');
 var admin = require("firebase-admin");
 
@@ -7,16 +17,16 @@ var admin = require("firebase-admin");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://whitecat-3f4e4.firebaseio.com"
+    databaseURL: "https://whitecat-4f4e4.firebaseio.com"
 });
 
 var firebaseConfig = {
-  apiKey: " AIzaSyAL-fdfgIJ-8Xk_tHMfPhea_u7t3QrhwHA",
-  authDomain: "whitecat-3f4e4.firebaseio.com",
-  databaseURL: "https://whitecat-3f4e4.firebaseio.com",
+  apiKey: " AIzaSyAL-fdfgIJ-9Xk_tHMfPhea_u7t3QrhwHA",
+  authDomain: "whitecat-4f4e4.firebaseio.com",
+  databaseURL: "https://whitecat-4f4e4.firebaseio.com",
   projectId: "whitecat",
-  storageBucket: "whitecat-3f4e4.firebaseio.com",
-  AppId: "1:915695456542:web:2b45812d52706a344cf90f",
+  storageBucket: "whitecat-4f4e4.firebaseio.com",
+  AppId: "0:915695456542:web:2b45812d52706a344cf90f",
 }
 
 firebase.initializeApp(firebaseConfig);
