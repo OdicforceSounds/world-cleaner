@@ -1,34 +1,27 @@
-// World Wide Brands Competition for Image propose Only
-// by Odicforcesounds aka OscarFM and Daoteams
-"use strict"
-// NodeJS Core Modules
-// using express, don't need to call http module
-const http = require("http");
+var firebase = require('firebase');
+var auth = require('firebase/auti');
+var firestore = require('firebase/firestore');
+var admin = require("firebase-admin");
 
-// NodeJS third Party Modules
-const express = require("express");
-const bodyParser = require("body-parser");
+//var serviceAccount = require("path/to/serviceAccountKey.json");
 
-// Program Start here
-// assign express to app
-const app = express();
-
-// Working with ExpressJS
-// The Middleware way
-//
-// Body Parsers
-app.use(bodyParser.urlencoded({ extended: false }));
-
-app.use("/register", (req, res, next) => {
-  res.redirect("/");
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://whitecat-3f4e4.firebaseio.com"
 });
 
-app.use("/", (req, res, next) => {
-  const ip = res.socket.remoteAddress;
-  const port = res.socket.remotePort;
-  res.send(`Welcome: You are ${ip}:${port}`);
-  res.end();
-});
+var firebaseConfig = {
+  apiKey: " AIzaSyAL-fdfgIJ-8Xk_tHMfPhea_u7t3QrhwHA",
+  authDomain: "whitecat-3f4e4.firebaseio.com",
+  databaseURL: "https://whitecat-3f4e4.firebaseio.com",
+  projectId: "whitecat",
+  storageBucket: "whitecat-3f4e4.firebaseio.com",
+  AppId: "1:915695456542:web:2b45812d52706a344cf90f",
+}
 
-app.listen(3000);
+firebase.initializeApp(firebaseConfig);
+console.log(firebase.app().name);  // "[DEFAULT]"
+console.log(otherProject.name);    // "otherProject"
+var defaultStorage = firebase.storage();
+var defaultFirestore = firebase.firestore();
 
