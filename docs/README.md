@@ -1,10 +1,10 @@
 # World Cleaner Developers
 
-Read Project [Introduction](./docs/INTRO.md)
+Read Project [Introduction](./INTRO.md)
 
-Read Project [Principles](./docs/PRINCIPLES.md)
+Read Project [Principles](./PRINCIPLES.md)
 
-Read Project [FAQ](./docs/FAQ.md)
+Read Project [FAQ](./FAQ.md)
 
 Build and develop:
 
