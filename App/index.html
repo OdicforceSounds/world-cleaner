@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta type="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="applicantion/javascript" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="src/index.css">
+  <title>World Cleaner</title>
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="progress"><img id="train" src="https://js.cx/clipart/train.gif"></div>
+    <h2>Recipes</h2>
+    <ul></ul>
+    <form>
+      <div class="input-group">
+        <input type="text" class="form-control" id="recipe" require>
+        <div class="input-group-append">
+          <input type="submit" value="add" class="btn btn-outline-secondary" id="btn">
+        </div>
+      </div>
+    </form>
+  </div>
+
+New Recipe: <span id="result"></span>
+  
+  <div class="wrapper">
+    <h1>Finance Logger</h1>
+
+    <ul class="item-list">
+
+    </ul>
+  </div>
+
+  <footer>
+    <form action="" class="new-item-form">
+      <div class="field">
+        <label for="">Type:</label>
+        <select name="" id="type">
+          <option value="invoice">Invoice</option>
+          <option value="payment">Payment</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="">To / From:</label>
+        <input type="text" name="" id="tofrom">
+      </div>
+      
+      <div class="field">
+        <label for="">Details:</label>
+        <input type="text" name="" id="details">
+      </div>
+
+      <div class="field">
+        <label for="">Amout::</label>
+        <input type="text" name="" id="amout">
+      </div>
+      <button>Add</button>
+    </form>
+  
+    <a href="">OdicforceSounds</a>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"><script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.js"><script>
+    <script>
+      
+var firebaseConfig = {
+  apiKey: "AIzaSyBmCG4ViU9rjN7gE7nnSSaW-AIJJo9aQPc",
+  authDomain: "fireup-c1159.firebaseapp.com",
+  databaseURL: "https://fireup-c1159.firebaseio.com",
+  projectId: "fireup-c1159",
+  storageBucket: "fireup-c1159.appspot.com",
+  messagingSenderId: "354260595930",
+  appId: "1:354260595930:web:693b9428d65d7ade09a1e3",
+  measurementId: "G-3ZSWQJQH95"
+};
+firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();
+
+db.collection().get().then((snapshot) => {
+  console.log(snapshot)
+}).catch(err => {
+  console.log(err);
+});
+    </script>
+  <script src="src/index.js"></script>
+</body>
+</html>
