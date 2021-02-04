@@ -9,13 +9,13 @@ Read Project [FAQ](./FAQ.md)
 Build and develop:
 
 ```sh
-npm i -g @angular/cli
 cd World-Cleaner
 npm install
-ng serve
+npm start # to start 
+npm build # to build 
 ```
 
-Project [Technologies](./docs/LIBRARIES.md)
+Project [Technologies](./LIBRARIES.md)
 
 # Setup a Pull Request
 
