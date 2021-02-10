@@ -1,46 +1,54 @@
 {
-  "name": "fireup",
-  "version": "0.0.0",
+  "name": "World-Cleaner",
+  "version": "1.0.0",
+  "description": "World Wide Competition for Image propose only",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "node --inspect=5658 -r ts-node/register ./src/server.ts",
+    "watch": "node_modules/nodemon/bin/nodemon.js src",
+    "build": "tsc",
+    "lint": "eslint ."
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~11.1.0",
-    "@angular/common": "~11.1.0",
-    "@angular/compiler": "~11.1.0",
-    "@angular/core": "~11.1.0",
-    "@angular/forms": "~11.1.0",
-    "@angular/platform-browser": "~11.1.0",
-    "@angular/platform-browser-dynamic": "~11.1.0",
-    "@angular/router": "~11.1.0",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odicforcesounds/World-Cleaner.git"
   },
+  "keywords": [],
+  "author": "OscarFM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odicforcesounds/World-Cleaner/issues"
+  },
+  "homepage": "https://github.com/odicforcesounds/World-Cleaner#readme",
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1101.1",
-    "@angular/cli": "~11.1.1",
-    "@angular/compiler-cli": "~11.1.0",
-    "@types/jasmine": "~3.6.0",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.2.3",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "ts-loader": "^8.0.14",
+    "ts-node": "^9.1.1",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.specs.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "npm start"
   }
 }
