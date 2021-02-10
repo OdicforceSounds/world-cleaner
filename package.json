@@ -7,9 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node --inspect=5658 -r ts-node/register ./src/server.ts",
+    "start": "node ./src/main.js",
     "watch": "node_modules/nodemon/bin/nodemon.js src",
-    "build": "tsc",
     "lint": "eslint ."
   },
   "repository": {
@@ -39,8 +38,6 @@
   },
   "nodemonConfig": {
     "ignore": [
-      "**/*.test.ts",
-      "**/*.specs.ts",
       ".git",
       "node_modules"
     ],
