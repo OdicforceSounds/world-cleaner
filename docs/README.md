@@ -12,7 +12,7 @@ Build and develop:
 cd World-Cleaner
 npm install
 npm start # to start 
-npm build # to build 
+npm run watch # to develop
 ```
 
 Project [Technologies](./LIBRARIES.md)
