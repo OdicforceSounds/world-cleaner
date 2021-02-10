@@ -3,6 +3,7 @@ dist/
 public/
 package-lock.json
 firebase-debug.log
+database.rules.json 
 firebase.json
 firestore.indexes.json 
 firestore.rules
