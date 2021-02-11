@@ -16,12 +16,12 @@
     "url": "git+https://github.com/odicforcesounds/World-Cleaner.git"
   },
   "keywords": [],
+  "homepage": "https://github.com/odicforcesounds/World-Cleaner#readme",
   "author": "OscarFM",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/odicforcesounds/World-Cleaner/issues"
   },
-  "homepage": "https://github.com/odicforcesounds/World-Cleaner#readme",
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-plugin-import": "^2.22.1",
@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "bootstrap": "^4.6.0",
     "express": "^4.17.1",
     "firebase-admin": "^9.2.0",
     "firebase-functions": "^3.11.0"
@@ -45,5 +44,15 @@
       "src"
     ],
     "exec": "npm start"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "dist/{css,js}/*.{css.js,map}",
+    "js/{src,dist}/**/*.{js.css}"
+  ],
+  "funding": {
+    "type": "open"
   }
 }
