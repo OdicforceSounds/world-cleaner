@@ -2,7 +2,7 @@
   "name": "World-Cleaner",
   "version": "1.0.0",
   "description": "World Wide Competition for Image propose only",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "directories": {
     "doc": "docs"
   },
@@ -53,8 +53,7 @@
       "node_modules"
     ],
     "watch": [
-      "src",
-      "views"
+      "src"
     ]
   },
   "firebase": {
