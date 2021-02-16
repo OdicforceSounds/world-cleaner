@@ -18,7 +18,7 @@ Project [Technologies](./LIBRARIES.md)
 
 # Setup a Pull Request
 
-Check <b>Dao</b> table at [odicforcesounds]() page, to understand where this app will be linked to. 
+Check <b>Dao</b> table at [odicforcesounds](https://wiki.odicforcesounds.com/art/pages/Dao/index.html) page, to understand where this app will be linked to. 
 
 Wish to apply new features? Let us know if we want it. Try to be close to the main objective of the app, don't mess too much with it. 
 
