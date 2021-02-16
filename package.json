@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "nodemon --watch",
+    "start": "nodemon",
     "lint": "eslint ."
   },
   "repository": {
@@ -55,8 +55,7 @@
     "watch": [
       "src",
       "views"
-    ],
-    "exec": "npm start"
+    ]
   },
   "firebase": {
     "database": {
