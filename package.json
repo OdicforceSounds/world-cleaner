@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon --watch",
     "lint": "eslint ."
   },
   "repository": {
@@ -53,9 +53,35 @@
       "node_modules"
     ],
     "watch": [
-      "src"
+      "src",
+      "views"
     ],
     "exec": "npm start"
+  },
+  "firebase": {
+    "database": {
+      "rules": "database.rules.json"
+    },
+    "firestore": {
+      "rules": "firestore.rules",
+      "indexes": "firestore.indexes.json"
+    },
+    "hosting": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "./node_modules/**"
+      ]
+    },
+    "storage": {
+      "rules": "storage.rules"
+    },
+    "function": {
+      "predeploy": [
+        "npm ../ --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
   },
   "engines": {
     "node": ">=6"
