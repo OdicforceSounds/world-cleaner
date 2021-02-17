@@ -31,7 +31,19 @@ fireAdmin.initializeApp({
   databaseURL: "https://whitecat-3f4e4.firebaseio.com"
 });
 
+// Storage
+//const storageRef = firebase.storage().ref();
+//const imagesRef = storageRef.child('images');
+//const fileName = 'space.jpg';
+//const spaceRef = imagesRef.child(fileName);
+//const path = spaceRef.fullPath;
+//const name = spaceRef.name;
+//const imagesRef = spaceref.parent;
 
+
+
+
+// Export Modules
 module.exports = {
   firebase: firebase,
   fireAuth: fireAuth,
