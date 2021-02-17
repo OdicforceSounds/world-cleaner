@@ -1,18 +1,16 @@
 // Express
 var express = require("express");
 var app = express();
+// Firebase 
+const {
+  firebase,
+  fireAuth,
+  fireStore,
+  fireAdmin
+} = require("./services/fireup");
 
-console.log(app);
-
-var firebase = require("firebase/app");
-console.log(firebase);
-
-var fireAuth = require("firebase/auth");
-console.log(fireAuth);
-
-var fireStore = require("firebase/firestore");
-console.log(fireStore);
-
+//console.log(app); // active to see full object in console 
+console.log(firebase, fireAuth, fireStore, fireAdmin);
 
 app.get("/", function (req, res) {
   app.listen(PORT, function () {
