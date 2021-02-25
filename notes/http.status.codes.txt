@@ -1,5 +1,0 @@
-100 Range: Informational responses
-200 Range: success codes
-300 Range: Codes for redirects 
-400 Range: user or client error codes 
-500 Range: server error codes

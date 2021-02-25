@@ -10,3 +10,4 @@ firestore.rules
 storage.rules
 
 src/services/key.json
+resources
