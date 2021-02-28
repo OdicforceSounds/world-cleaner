@@ -1,6 +1,7 @@
 const express = require('express')
 const logger = require('morgan')
 const bodyParser = require("body-parser")
+const {request, response} = require('express')
 
 const app = express()
 
@@ -18,17 +19,28 @@ app.listen(port, function () {
   console.log('Server is running on port ' + port)
 })
 
-app.get('/', function (request, response) {
-  response.render('home.ejs')
+app.get('/', (request, response) => {
+  response.render('home', {
+    pageTitle: 'Home',
+    bodyTitle: 'World Wide Brands Competition Challenge',
+    subTitle: 'For Image Propose Only'
+  })
 })
 
+app.get('/register', (request, response) => {
+  response.render('register', {pageTitle: 'Registration Page'})
+})
 
-// Not Working! ( Why? ) Good Question!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+app.get('/login', (request, response) => {
+  response.render('login', {pageTitle: 'Login Page'})
+})
 
-//app.get('/result', function (request, response) {
-  //response.render('result.ejs')
-//})
+app.get('/profile', (request, response) => {
+  response.render('profile', {pageTitle: 'User Profile'})
+})
 
-
-
-
+app.get('/help', (request, response) => {
+  response.render('help', {
+    pageTitle: 'Help Page'
+  })
+})
