@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt es en">
+<%- include('./partials/header.ejs')%>
 
-<head>
-  <title>World Cleaner | <%= pageTitle %>
-  </title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <body>
+    <%- include('./partials/nav.ejs')%>
 
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/help">Documentation</a></li>
-      <li><a href="/register">Sign In</a></li>
-      <li><a href="/login">Login</a></li>
-      <li><a href="#">Logout</a></li><!-- Only show if user is registered-->
-      <li><a href="/profile">Profile</a></li> <!-- Only show if user is registered-->
-    </ul>
-  </nav>
 
-</body>
+      <br><br><br>
+      <h1 style="text-align: center;">
+        <%= pageTitle%>
+          <a href="#">about</a>
+      </h1>
+      <br><br><br>
+
+
+      <%- include('./partials/footer.ejs') %>
+  </body>
 
 </html>

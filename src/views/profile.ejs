@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt es en">
+<%- include('./partials/header.ejs')%>
 
-<head>
-  <title>World Cleaner | <%= pageTitle %>
-  </title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <body>
+    <%- include('./partials/nav.ejs')%>
 
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/help">Documentation</a></li>
-      <li><a href="/register">Sign In</a></li>
-      <li><a href="/login">Login</a></li>
-      <li><a href="#">Logout</a></li><!-- Only show if user is registered-->
-      <li><a href="/profile">Profile</a></li> <!-- Only show if user is registered-->
-    </ul>
-  </nav>
+      <h1 style="text-align: center;">
+        <%= pageTitle%>
+      </h1>
+      <h3 style="text-align: center;"><b> X </b>Take a Picture</h3>
+      <h3 style="text-align: center;"><b> X </b>Record Audio</h3>
+      <h3 style="text-align: center;"><b> X </b>Record Video</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate a Picture</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate Audio</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate Video</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate Personal Characteristic</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate Commercial Characteristics</h3>
+      <h3 style="text-align: center;"><b> X </b>Rate Student Characteristics</h3>
+      <h3 style="text-align: center;"><b> X </b>Report to Police</h3>
+      <h3 style="text-align: center;"><b> X </b>Ask Help (share Geo-localation to Gain Help)</h3>
+      <h3 style="text-align: center;"><b> X </b>Personal Points / Coins Manager</h3>
 
-</body>
+
+
+      <%- include('./partials/footer.ejs') %>
+  </body>
 
 </html>
