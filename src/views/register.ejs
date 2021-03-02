@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt es en">
-<%- include('./partials/header.ejs')%>
+<%- include('./partials/template/header.ejs')%>
 
   <body>
-    <%- include('./partials/nav.ejs')%>
+    <%- include('./partials/template/nav.ejs')%>
 
-      <br><br><br>
       <h1 style="text-align: center;">
         <%= pageTitle%>
       </h1>
       <br><br><br>
-
-      <form style="text-align: center;" action="login" method="post">
+      <form style="text-align: center;display: block;" action="login" method="post">
         <label for="userEmail">Email</label>
         <input type="email" name="email" id="email">
         <br>
@@ -24,7 +22,7 @@
       <br><br><br>
 
 
-      <%- include('./partials/footer.ejs') %>
+      <%- include('./partials/template/footer.ejs') %>
   </body>
 
 </html>

@@ -9,5 +9,6 @@ firestore.indexes.json
 firestore.rules
 storage.rules
 
-src/services/key.json
+web/services/key.json
+
 resources
