@@ -34,7 +34,7 @@
     "url": "https://github.com/odicforcesounds/World-Cleaner/issues"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
+    "eslint": "^7.26.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.22.1",
     "firebase-functions-test": "^0.2.0",
@@ -44,7 +44,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "firebase": "^8.2.7",
+    "firebase": "^8.5.0",
     "morgan": "^1.10.0"
   },
   "nodemonConfig": {
