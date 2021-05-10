@@ -1,0 +1,128 @@
+<ref *1> {
+  __esModule: true,
+  initializeApp: [Function: initializeApp],
+  app: [Function: app] { App: [Function: FirebaseAppImpl] },
+  registerVersion: [Function: registerVersion],
+  setLogLevel: [Function: setLogLevel],
+  onLog: [Function: onLog],
+  apps: [Getter],
+  SDK_VERSION: '8.2.5',
+  INTERNAL: {
+    registerComponent: [Function: registerComponent],
+    removeApp: [Function: removeApp],
+    components: Map(9) {
+      'platform-logger' => [Component],
+      'fire-core-node-version' => [Component],
+      'fire-js-version' => [Component],
+      'firebase-app-version' => [Component],
+      'auth' => [Object],
+      'auth-internal' => [Object],
+      'fire-auth-version' => [Component],
+      'firestore' => [Component],
+      'fire-fst-node-version' => [Component]
+    },
+    useAsService: [Function: useAsService],
+    createFirebaseNamespace: [Function: createFirebaseNamespace],
+    extendNamespace: [Function: extendNamespace],
+    createSubscribe: [Function: createSubscribe],
+    ErrorFactory: [Function: ErrorFactory],
+    deepExtend: [Function: deepExtend],
+    node: {
+      localStorage: Storage {},
+      sessionStorage: Storage {},
+      XMLHttpRequest: [Function (anonymous)]
+    }
+  },
+  default: [Circular *1],
+  auth: [Function: serviceNamespace] {
+    ActionCodeInfo: { Operation: [Object] },
+    Auth: [Function: En] { ab: [Uc], Persistence: [Object] },
+    AuthCredential: [Function: Bg] { fromJSON: [Function: d] },
+    Error: [Function: t] { ab: {} },
+    EmailAuthProvider: [Function: d] {
+      PROVIDER_ID: 'password',
+      EMAIL_LINK_SIGN_IN_METHOD: 'emailLink',
+      EMAIL_PASSWORD_SIGN_IN_METHOD: 'password',
+      credential: [Function: d],
+      credentialWithLink: [Function: d]
+    },
+    FacebookAuthProvider: [Function: d] {
+      ab: [Ng],
+      PROVIDER_ID: 'facebook.com',
+      FACEBOOK_SIGN_IN_METHOD: 'facebook.com',
+      credential: [Function: d]
+    },
+    GithubAuthProvider: [Function: d] {
+      ab: [Ng],
+      PROVIDER_ID: 'github.com',
+      GITHUB_SIGN_IN_METHOD: 'github.com',
+      credential: [Function: d]
+    },
+    GoogleAuthProvider: [Function: d] {
+      ab: [Ng],
+      PROVIDER_ID: 'google.com',
+      GOOGLE_SIGN_IN_METHOD: 'google.com',
+      credential: [Function: d]
+    },
+    TwitterAuthProvider: [Function: d] {
+      ab: [Object],
+      PROVIDER_ID: 'twitter.com',
+      TWITTER_SIGN_IN_METHOD: 'twitter.com',
+      credential: [Function: d]
+    },
+    OAuthProvider: [Function: d] { ab: [Object] },
+    SAMLAuthProvider: [Function: d] { ab: [Object] },
+    PhoneAuthProvider: [Function: d] {
+      PROVIDER_ID: 'phone',
+      PHONE_SIGN_IN_METHOD: 'phone',
+      credential: [Function: d]
+    },
+    RecaptchaVerifier: [Function: d] { ab: [Object] },
+    ActionCodeURL: [Function: d] { parseLink: [Function: d] },
+    PhoneMultiFactorGenerator: [Function: d] { FACTOR_ID: 'phone', assertion: [Function: d] }
+  },
+  User: [Function: Im] {
+    ab: Uc {
+      constructor: [Function],
+      closure_listenable_815071: true,
+      addEventListener: [Function (anonymous)],
+      removeEventListener: [Function (anonymous)],
+      dispatchEvent: [Function (anonymous)],
+      Da: [Function (anonymous)]
+    }
+  },
+  firestore: [Function: serviceNamespace] {
+    Firestore: [Function: Firestore],
+    GeoPoint: [Function: GeoPoint],
+    Timestamp: [Function: Timestamp] {
+      now: [Function (anonymous)],
+      fromDate: [Function (anonymous)],
+      fromMillis: [Function (anonymous)]
+    },
+    Blob: [Function: Blob] {
+      fromBase64String: [Function (anonymous)],
+      fromUint8Array: [Function (anonymous)]
+    },
+    Transaction: [Function: Transaction$3],
+    WriteBatch: [Function: WriteBatch$1],
+    DocumentReference: [Function: DocumentReference$1] {
+      forPath: [Function (anonymous)],
+      forKey: [Function (anonymous)]
+    },
+    DocumentSnapshot: [Function: DocumentSnapshot$2],
+    Query: [Function: Query$1],
+    QueryDocumentSnapshot: [Function: QueryDocumentSnapshot$2],
+    QuerySnapshot: [Function: QuerySnapshot$1],
+    CollectionReference: [Function: CollectionReference$1],
+    FieldPath: [Function: FieldPath] { documentId: [Function (anonymous)] },
+    FieldValue: [Function: FieldValue] {
+      serverTimestamp: [Function (anonymous)],
+      delete: [Function (anonymous)],
+      arrayUnion: [Function (anonymous)],
+      arrayRemove: [Function (anonymous)],
+      increment: [Function (anonymous)]
+    },
+    setLogLevel: [Function: setLogLevel$1],
+    CACHE_SIZE_UNLIMITED: -1
+  }
+}

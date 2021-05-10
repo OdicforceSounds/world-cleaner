@@ -3,12 +3,18 @@
 <%- include('./partials/template/header.ejs')%>
 
   <body>
-    <%- include('./partials/template/nav.ejs')%>
-      <h1 style="text-align: center;">
-        <%= pageTitle%>
-      </h1>
-      <%- include('./partials/status/table.ejs')%>
-        <%- include('./partials/template/footer.ejs')%>
+    <br>
+    <%- include('./partials/template/footer.ejs') %>
+      <br>
+      <%- include('./partials/template/nav.ejs')%>
+        <br><br><br>
+        <br><br><br>
+        <h1 style="text-align: center;">
+          <%= pageTitle%>
+        </h1>
+        <div style="text-align: center;padding-left:20%">
+          <%- include('./partials/status/table.ejs')%>
+        </div>
   </body>
 
 </html>

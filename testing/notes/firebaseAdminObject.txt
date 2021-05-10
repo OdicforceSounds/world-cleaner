@@ -1,0 +1,17 @@
+<ref *1> FirebaseNamespace {
+  __esModule: true,
+  credential: {
+    cert: [Function (anonymous)],
+    refreshToken: [Function (anonymous)],
+    applicationDefault: [Function (anonymous)]
+  },
+  SDK_VERSION: '9.4.2',
+  Promise: [Function: Promise],
+  INTERNAL: FirebaseNamespaceInternals {
+    firebase_: [Circular *1],
+    serviceFactories: {},
+    apps_: { '[DEFAULT]': [FirebaseApp] },
+    appHooks_: {}
+  },
+  default: [Circular *1]
+}

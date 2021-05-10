@@ -3,18 +3,15 @@
 <%- include('./partials/template/header.ejs')%>
 
   <body>
-    <%- include('./partials/template/nav.ejs')%>
+    <br>
+    <%- include('./partials/template/footer.ejs')%><br>
+      <%- include('./partials/template/nav.ejs')%>
+        <br><br><br>
+        <h1 style="text-align: center;">
+          <%= pageTitle%>
+            <a href="#">about</a>
+        </h1>
 
-
-      <br><br><br>
-      <h1 style="text-align: center;">
-        <%= pageTitle%>
-          <a href="#">about</a>
-      </h1>
-      <br><br><br>
-
-
-      <%- include('./partials/template/footer.ejs') %>
   </body>
 
 </html>

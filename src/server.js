@@ -1,8 +1,7 @@
 const express = require('express')
 const logger = require('morgan')
 const bodyParser = require("body-parser")
-const {request, response} = require('express')
-
+const ejs = require('ejs')
 const firebase = require('firebase')
 
 // Initialize Firebase
@@ -26,7 +25,6 @@ const functions = firebase.functions();
 // update firestore settings
 db.settings({timestampsInSnapshots: true});
 
-console.log(db.settings)
 const app = express()
 
 app.set('view engine', 'ejs')

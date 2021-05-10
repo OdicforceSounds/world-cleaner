@@ -3,32 +3,30 @@
 <%- include('./partials/template/header.ejs')%>
 
   <body>
-    <%- include('./partials/template/nav.ejs')%>
-      <h1 style="text-align: center;">
-        <%= pageTitle%>
-      </h1>
-      <!--  -->
-      <div style="display: flex;margin-left: 60px;align-content: center;">
-        <div style=" flex-direction: row;align-content:center;">
-          <%- include('./partials/users/userActions.ejs')%>
-        </div>
-        <div style=" flex-direction: row;align-content:center;">
-          <%- include('./partials/users/actionRate.ejs')%>
-        </div>
-        <br>
-        <div style="flex-direction: row;margin-right: 40px;align-content: center;">
-          <%- include('./partials/users/commercialRate.ejs')%>
-        </div>
-        <br>
-        <div style="flex-direction: row;align-content: center">
-          <%- include('./partials/users/civilProtection.ejs')%>
-        </div>
-        <div style="flex-direction: row;align-content: flex-end;margin-left: 50px">
-          <%- include('./partials/users/studentCharacteristics.ejs')%>
-        </div>
-      </div>
+    <br>
+    <%- include('./partials/template/footer.ejs')%>
       <br>
-      <%- include('./partials/template/footer.ejs')%>
+      <%- include('./partials/template/nav.ejs')%>
+        <h1 style="text-align: center;">
+          <%= pageTitle%>
+        </h1>
+        <!--  -->
+        <div style="display: flex;margin-left: 60px;align-content: center;">
+          <div style=" flex-direction: row;align-content:center;">
+            <%- include('./partials/users/actionRate.ejs')%>
+              <%- include('./partials/users/userActions.ejs')%>
+          </div>
+          <br>
+          <div style="flex-direction: row;margin-right: 40px;align-content: center;">
+            <%- include('./partials/users/commercialRate.ejs')%>
+              <%- include('./partials/users/civilProtection.ejs')%>
+          </div>
+          <br>
+          <div style="flex-direction: row;align-content: center">
+            <%- include('./partials/users/studentCharacteristics.ejs')%>
+          </div>
+        </div>
+        <br>
   </body>
 
 </html>
